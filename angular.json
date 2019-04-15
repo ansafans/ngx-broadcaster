@@ -121,6 +121,41 @@
           }
         }
       }
+    },
+    "ng-broadcaster": {
+      "root": "projects/ng-broadcaster",
+      "sourceRoot": "projects/ng-broadcaster/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-broadcaster/tsconfig.lib.json",
+            "project": "projects/ng-broadcaster/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-broadcaster/src/test.ts",
+            "tsConfig": "projects/ng-broadcaster/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-broadcaster/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-broadcaster/tsconfig.lib.json",
+              "projects/ng-broadcaster/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-broadcaster-lib"
