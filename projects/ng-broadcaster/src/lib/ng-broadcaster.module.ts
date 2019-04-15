@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { NgBroadcasterComponent } from './ng-broadcaster.component';
+import { CommonModule } from '@angular/common';
+import { NgBroadcasterService } from './ng-broadcaster.service';
 
 @NgModule({
   imports: [
+    CommonModule
   ],
-  declarations: [NgBroadcasterComponent],
-  exports: [NgBroadcasterComponent]
+  providers:[]
 })
 export class NgBroadcasterModule { }
