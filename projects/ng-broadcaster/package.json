@@ -1,5 +1,5 @@
 {
-  "name": "@ans/ng-broadcaster",
+  "name": "ngx-broadcaster",
   "version": "1.0.0",
   "author": "Mohamed Ansaf",
   "description": "Global event broadcaster service for angular applications",
