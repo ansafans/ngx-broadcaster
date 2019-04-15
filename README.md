@@ -5,13 +5,13 @@
 ## Installation
 
 ```
-npm install ng-broadcaster
+npm install @ans/ng-broadcaster
 ```
 
 ## Usage
 
 ```
-import { NgBroadcasterModule } from 'ng-broadcaster';
+import { NgBroadcasterModule } from '@ans/ng-broadcaster';
 
 @NgModule({
   declarations: [
