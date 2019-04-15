@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-broadcaster": [
+        "dist/ng-broadcaster"
+      ],
+      "ng-broadcaster/*": [
+        "dist/ng-broadcaster/*"
+      ]
+    }
   }
 }
