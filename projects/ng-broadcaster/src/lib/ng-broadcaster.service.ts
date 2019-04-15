@@ -11,7 +11,7 @@ export class NgBroadcasterService {
   constructor(){}
 
   // Emit event with name and data
-  emitEvent(eventName,eventData){
+  emitEvent(eventName:string,eventData:any){
 
     let event = {
       name: eventName,
@@ -22,7 +22,7 @@ export class NgBroadcasterService {
   }
 
   // Broadcast event with emitted event name
-  listen(eventName):Observable<any>{
+  listen(eventName:string):Observable<any>{
     return new Observable<any>((observer)=>{
       this.subject.subscribe(res=>{
         if(res.name === eventName){
