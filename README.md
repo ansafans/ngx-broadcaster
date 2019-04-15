@@ -1,17 +1,21 @@
-# NG BROADCASTER LIBRARY
+# NGX BROADCASTER LIBRARY
 
-**NG BROADCASTER** is a library that provides the service for Angular applications to access global emitted events from components, service etc..
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**NGX BROADCASTER** is a library that provides the service for Angular applications to access global emitted events from components, service etc..
 
 ## Installation
 
 ```
-npm install @ans/ng-broadcaster
+npm install ngx-broadcaster
 ```
+
+Refer NPM package <a href="https://www.npmjs.com/package/ngx-broadcaster">here</a>.
 
 ## Usage
 
 ```
-import { NgBroadcasterModule } from '@ans/ng-broadcaster';
+import { NgBroadcasterModule } from 'ngx-broadcaster';
 
 @NgModule({
   declarations: [
@@ -100,4 +104,3 @@ This project is licensed under the terms of the MIT license.
 ## Further help
 
 If you have ideas for more that should be on this page, <a href="https://github.com/ansafans/Ng-Broadcaster/issues">let me know</a>
-
