@@ -1,6 +1,11 @@
 {
   "name": "ng-broadcaster-lib",
-  "version": "0.0.0",
+  "author": "Mohamed Ansaf",
+  "description": "Global event broadcaster service for angular applications",
+  "keywords": [
+    "broadcaster"
+  ],
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
